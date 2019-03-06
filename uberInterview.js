@@ -6,3 +6,18 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 
 Follow-up: what if you can't use division?
 */
+function solution(input){
+  const finalResult=[];
+   for(let i =0, len = input.length;i<len;i++){
+     let value = 1;
+     let t = 1;
+     for(j=i+1;j<len;j++){
+       console.log("j",input[j])
+     }
+     console.log(input[i])
+   }
+   console.log(finalResult);
+   return finalResult;
+
+}
+console.log(solution([1, 2, 3, 4, 5]));
